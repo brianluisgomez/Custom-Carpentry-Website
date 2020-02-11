@@ -86,12 +86,13 @@ header a:hover {
 
 #showcase {
   min-height: 400px;
-  background: url(../img/showcase-background1.jpg) no-repeat -100px;
+  margin-top: 80px;
+  background: url(../img/showcase-background3.jpg) no-repeat -100px;
   color: #ffffff;
 }
 
 #showcase .highlight {
-  color: #e8491d;
+  color: #da3a09ec;
   font-size: 80px;
   font-weight: bold;
 }
@@ -99,11 +100,12 @@ header a:hover {
 #showcase h1 {
   font-size: 75px;
   margin-bottom: 10px;
-  padding-left: 300px;
+  padding-left: auto;
 }
 
 #showcase p {
   font-size: 20px;
+
   color: #ffffff;
 }
 
