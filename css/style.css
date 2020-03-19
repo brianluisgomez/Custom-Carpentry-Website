@@ -12,10 +12,53 @@ body {
   overflow: hidden;
 }
 
-.gallery {
+.container- {
+  width: 70%;
+  padding: 2rem;
+}
+
+.page-title {
+  display: grid;
+  grid-template-columns: 1;
+  justify-items: center;
+}
+
+.flex-container {
   display: flex;
-  flex-flow: column;
-  align-items: left;
+  flex-flow: row nowrap;
+  align-items: center;
+  max-width: 100%;
+}
+
+.flex-container > * {
+  flex: 1 1 1;
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: 25rem;
+}
+
+.flex-item1 > img {
+  width: 100%;
+}
+
+.btn,
+.btn-dark,
+.btn-light {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+}
+.btn:hover,
+.btn-dark:hover,
+.btn-light:hover {
+  background: #eec71a;
+  color: #000;
 }
 
 ul {
@@ -39,6 +82,11 @@ ul {
   color: #ffffff;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+#portfolio-section {
+  display: grid;
+  grid-template-columns: auto;
 }
 
 /* Header */
@@ -122,19 +170,25 @@ header a:hover {
   background: #35424a;
 }
 
-#newsletter h1 {
+#newsletter li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+#newsletter {
   float: left;
+  margin: 10px;
 }
 
-#newsletter form {
-  float: right;
-  margin-top: 21px;
+#newsletter .highlight,
+#newsletter .current a {
+  color: #e8491d;
+  font-weight: bold;
 }
 
-#newsletter input[type='email'] {
-  padding: 4px;
-  height: 25px;
-  width: 250px;
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
 }
 
 /* Boxes */
