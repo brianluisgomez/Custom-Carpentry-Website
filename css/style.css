@@ -19,6 +19,15 @@ body {
   background-color: #35424a;
   color: #ffffff;
 }
+.page-title > h1.highlight {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+.page-title > h1 > p.highlight {
+  color: #e8491d;
+  font-weight: bold;
+}
 
 .flex-container {
   display: flex;
@@ -167,6 +176,8 @@ header a:hover {
   background: #35424a;
   text-align: center;
   justify-items: center;
+  float: left;
+  margin: 10px;
 }
 
 #newsletter li {
@@ -174,13 +185,28 @@ header a:hover {
   padding: 0 20px 0 20px;
 }
 
-#newsletter {
-  float: left;
+#newsletter .highlight,
+#newsletter .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+#sub-nav {
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a;
+  text-align: center;
+  justify-items: center;
   margin: 10px;
 }
 
-#newsletter .highlight,
-#newsletter .current a {
+#sub-nav li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+#sub-nav .highlight,
+#sub-nav .current a {
   color: #e8491d;
   font-weight: bold;
 }
@@ -244,9 +270,16 @@ ul#services li {
   padding: 20px;
   border: #cccccc;
   margin-bottom: 5px;
-  background: #e6e6e6;
+
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a;
 }
 
+ul#services li .highlight {
+  color: #e8491d;
+  text-align: center;
+}
 /* Footer */
 
 footer {
