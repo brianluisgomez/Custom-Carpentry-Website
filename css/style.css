@@ -12,15 +12,12 @@ body {
   overflow: hidden;
 }
 
-.container- {
-  width: 70%;
-  padding: 2rem;
-}
-
 .page-title {
   display: grid;
   grid-template-columns: 1;
   justify-items: center;
+  background-color: #35424a;
+  color: #ffffff;
 }
 
 .flex-container {
@@ -159,7 +156,7 @@ header a:hover {
 #showcase p {
   font-size: 20px;
 
-  color: #ffffff;
+  color: #272b30;
 }
 
 /* Newsletter */
@@ -168,6 +165,8 @@ header a:hover {
   padding: 15px;
   color: #ffffff;
   background: #35424a;
+  text-align: center;
+  justify-items: center;
 }
 
 #newsletter li {
@@ -205,8 +204,15 @@ header a:hover {
 }
 
 #boxes .box img {
-  width: 90px;
+  width: 100%;
   height: 100%;
+  transform: rotate(90deg);
+  margin-bottom: 1rem;
+}
+
+.caption {
+  display: block;
+  text-align: center;
 }
 
 /* Sidebar */
