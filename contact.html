@@ -43,7 +43,7 @@
     </section>
     <section id="main">
         <div class="contact-form">
-                <form>
+                <form method="POST" data-netlify="true">
                 <fieldset>
                 <legend><span class="number">1</span> Contact Info</legend>
                 <input type="text" name="field1" placeholder="Your Name *">
@@ -78,6 +78,7 @@
                 <legend><span class="number">3</span> Project Description</legend>
                 <textarea name="field3" placeholder="Brief Description of Job Details: "></textarea>
                 <textarea name="field5" placeholder="Please List Any Questions You May Have Here:"></textarea>
+                <div data-netlify-recaptcha="true"></div>
                 </fieldset>
                 <input type="submit" value="Submit" />
                 </form>
