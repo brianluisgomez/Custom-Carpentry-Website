@@ -189,6 +189,22 @@ header a:hover {
   text-align: center;
   color: #ffffff;
 }
+
+#main .page-title .highlight {
+  color: #da3a09ec;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+#main .page-title > p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#main .text-secondary {
+  font-weight: 700;
+}
 /* #main .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
